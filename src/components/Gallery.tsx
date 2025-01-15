@@ -4,12 +4,12 @@ const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
     const images = [
-        "/api/placeholder/400/300",
-        "/api/placeholder/400/300",
-        "/api/placeholder/400/300",
-        "/api/placeholder/400/300",
-        "/api/placeholder/400/300",
-        "/api/placeholder/400/300",
+        "src/assets/images/1.webp",
+        "src/assets/images/2.webp",
+        "src/assets/images/3.webp",
+        "src/assets/images/4.webp",
+        "src/assets/images/5.webp",
+        "src/assets/images/6.webp"
     ];
 
     return (

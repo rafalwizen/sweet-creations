@@ -1,6 +1,23 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Gallery from "../components/Gallery";
 
+interface LocationState {
+    scrollTo?: string;
+}
+
 const Home = () => {
+    const location = useLocation();
+    const state = location.state as LocationState;
+
+    useEffect(() => {
+        if (state?.scrollTo) {
+            const element = document.getElementById(state.scrollTo);
+            element?.scrollIntoView({ behavior: "smooth" });
+            window.history.replaceState({}, document.title);
+        }
+    }, [state]);
+
     return (
         <div className="pt-16">
             <section

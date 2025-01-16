@@ -1,9 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+    const location = useLocation();
+    const navigate = useNavigate();
+
     const scrollToSection = (id: string) => {
         const element = document.getElementById(id);
         element?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    const handleNavigation = (id: string) => {
+        if (location.pathname !== '/') {
+            navigate('/', { state: { scrollTo: id } });
+        } else {
+            scrollToSection(id);
+        }
     };
 
     return (
@@ -17,13 +28,13 @@ const Navbar = () => {
                     </div>
                     <div className="flex items-center space-x-4">
                         <button
-                            onClick={() => scrollToSection("about")}
+                            onClick={() => handleNavigation("about")}
                             className="text-gray-600 hover:text-primary transition-colors"
                         >
                             O mnie
                         </button>
                         <button
-                            onClick={() => scrollToSection("gallery")}
+                            onClick={() => handleNavigation("gallery")}
                             className="text-gray-600 hover:text-primary transition-colors"
                         >
                             Galeria

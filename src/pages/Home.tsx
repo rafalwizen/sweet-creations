@@ -19,7 +19,7 @@ const Home = () => {
     }, [state]);
 
     return (
-        <div className="pt-16">
+        <div className="pt-24 md:pt-16">
             <section
                 id="about"
                 className="min-h-screen flex items-center justify-center bg-background px-4"

@@ -17,6 +17,10 @@ export default {
           DEFAULT: "#F9FAFB",
         },
       },
+      fontFamily: {
+        greatVibes: ['GreatVibes', 'cursive'],
+        lora: ['LoraItalic', 'serif'],
+      },
     },
   },
   plugins: [],

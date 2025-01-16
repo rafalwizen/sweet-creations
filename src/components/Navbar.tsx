@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
-                        <Link to="/" className="text-primary font-bold text-xl">
+                        <Link to="/" className="text-primary font-bold text-3xl font-greatVibes">
                             Sweet Portfolio
                         </Link>
                     </div>

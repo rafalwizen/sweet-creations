@@ -9,6 +9,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'LoraItalic';
+    src: url('/src/assets/fonts/LoraItalic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 body {
-    font-family: 'GreatVibes', sans-serif;
+    font-family: 'LoraItalic', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'GreatVibes', cursive;
 }

@@ -33,7 +33,7 @@ const Home = () => {
                 <div className="relative max-w-7xl mx-auto py-16 flex flex-col md:flex-row items-center gap-8">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="/api/placeholder/400/400"
+                            src="/profilePhoto.webp"
                             alt="Profile"
                             className="rounded-full w-64 h-64 mx-auto object-cover shadow-lg border-4 border-white"
                         />
@@ -43,9 +43,8 @@ const Home = () => {
                             <h1 className="text-4xl font-bold text-primary mb-4">
                                 Witaj w moim świecie słodkości
                             </h1>
-                            <p className="text-gray-600 mb-6">
-                                Tutaj wstaw swój opis. Opowiedz o swojej pasji do pieczenia,
-                                doświadczeniu i specjalizacji.
+                            <p className="text-gray-600 text-justify mb-6">
+                                Tworzę wyjątkowe torty na zamówienie, idealne na każdą okazję. W mojej galerii znajdziesz przykłady moich prac, które zachwycają smakiem i wyglądem. Masz pomysł na swój wymarzony tort? Skontaktuj się ze mną a&nbsp;razem stworzymy coś wyjątkowego!
                             </p>
                         </div>
                     </div>

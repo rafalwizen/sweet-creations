@@ -25,8 +25,8 @@ const Home = () => {
                 className="relative min-h-screen flex items-center justify-center px-4"
             >
                 <div
-                    className="absolute inset-0 bg-[url('/your-background-image.jpg')] bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: "url('/background-image.jpg')" }}
+                    className="absolute inset-0 bg-[url('/background-image-home.webp')] bg-cover bg-center bg-no-repeat"
+                    style={{ backgroundImage: "url('/background-image-home.webp')" }}
                 />
                 <div className="absolute inset-0 bg-black/30" />
 

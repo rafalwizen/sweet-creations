@@ -1,15 +1,16 @@
 import { useState } from "react";
+import cake1 from '../assets/images/1.webp';
+import cake2 from '../assets/images/2.webp';
+import cake3 from '../assets/images/3.webp';
+import cake4 from '../assets/images/4.webp';
+import cake5 from '../assets/images/5.webp';
+import cake6 from '../assets/images/6.webp';
 
 const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
     const images = [
-        "src/assets/images/1.webp",
-        "src/assets/images/2.webp",
-        "src/assets/images/3.webp",
-        "src/assets/images/4.webp",
-        "src/assets/images/5.webp",
-        "src/assets/images/6.webp"
+        cake1, cake2, cake3, cake4, cake5, cake6
     ];
 
     return (

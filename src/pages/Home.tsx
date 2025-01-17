@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Gallery from "../components/Gallery";
+import backgroundImage from '../assets/images/background-image-home.webp';
+import profilePhoto from '../assets/images/profilePhoto.webp';
 
 interface LocationState {
     scrollTo?: string;
@@ -25,15 +27,15 @@ const Home = () => {
                 className="relative min-h-screen flex items-center justify-center px-4"
             >
                 <div
-                    className="absolute inset-0 bg-[url('/background-image-home.webp')] bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: "url('/background-image-home.webp')" }}
+                    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                    style={{ backgroundImage: `url(${backgroundImage})` }}
                 />
                 <div className="absolute inset-0 bg-black/30" />
 
                 <div className="relative max-w-7xl mx-auto py-16 flex flex-col md:flex-row items-center gap-8">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="/profilePhoto.webp"
+                            src={profilePhoto}
                             alt="Profile"
                             className="rounded-full w-64 h-64 mx-auto object-cover shadow-lg border-4 border-white"
                         />

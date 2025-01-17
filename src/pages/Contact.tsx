@@ -1,4 +1,5 @@
-import { useState, FormEvent } from "react";
+import { useState, FormEvent } from "react";;
+import backgroundImage from '../assets/images/background-image-contact.webp';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -16,8 +17,8 @@ const Contact = () => {
     return (
         <div className="min-h-screen pt-24 md:pt-16 relative">
             <div
-                className="absolute inset-0 bg-[url('${import.meta.env.BASE_URL}public/background-image-contact.webp')] bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: "url('${import.meta.env.BASE_URL}public/background-image-contact.webp')" }}
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                style={{ backgroundImage: `url(${backgroundImage})` }}
             />
             <div className="absolute inset-0 bg-black/30" />
 

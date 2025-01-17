@@ -5,7 +5,7 @@ import Contact from "./pages/Contact";
 
 const App = () => {
     return (
-        <Router>
+        <Router basename="/sweet-creations">
             <div className="min-h-screen bg-background">
                 <Navbar />
                 <Routes>

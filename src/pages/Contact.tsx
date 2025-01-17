@@ -16,8 +16,8 @@ const Contact = () => {
     return (
         <div className="min-h-screen pt-24 md:pt-16 relative">
             <div
-                className="absolute inset-0 bg-[url('/background-image-contact.webp')] bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: "url('/background-image-contact.webp')" }}
+                className="absolute inset-0 bg-[url('${import.meta.env.BASE_URL}public/background-image-contact.webp')] bg-cover bg-center bg-no-repeat"
+                style={{ backgroundImage: "url('${import.meta.env.BASE_URL}public/background-image-contact.webp')" }}
             />
             <div className="absolute inset-0 bg-black/30" />
 

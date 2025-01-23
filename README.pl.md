@@ -6,7 +6,7 @@ Obecnie jest kontynuowany w **Next.js** w innym repozytorium.
 
 ## Nowe Repozytorium
 Projekt w **Next.js** jest dostępny tutaj:  
-➡️ [Sweet Creations - Next.js](https://github.com/rafalwizen/sweet-creations-next-js/blob/master/README.pl.md)
+➡️ [Sweet Creations - Next.js](https://github.com/rafalwizen/sweet-creations-next-js)
 
 
 ## Technologia

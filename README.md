@@ -1,5 +1,13 @@
 [![pl](https://img.shields.io/badge/lang-pl-blue.svg)](https://github.com/rafalwizen/sweet-creations/blob/master/README.pl.md)
-# Sweet Creations
+# Sweet Creations (React) - Project Suspended
+
+This project has been **suspended** and will no longer be developed in this technology.  
+It is now being continued in **Next.js** in a different repository.
+
+## New Repository
+The **Next.js** version of the project is available here:  
+➡️ [Sweet Creations - Next.js](https://github.com/rafalwizen/sweet-creations-next-js/blob/master/README.md)
+
 
 ## Technology
 - React
